@@ -1,0 +1,165 @@
+﻿
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Schdule</title>
+
+    <meta charset="uTf-8">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/contents/style1.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <script src="~/Scripts/bootstrap.js"></script>
+
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img style="width:130px; height:130px; margin-top: 1.5px; margin-left: -10px; margin-right:50px; margin-bottom: -10px;" alt="Brand" src="@Url.Content("~/contents/img/")/logo.jpg" />
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="Login" class="btn btn-default">@Html.ActionLink("login", "login", "project")</button>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--end navbar-->
+    <!-- Template-->
+
+    <div class="text-center">
+        <div class="Template">
+
+            <div class="title">
+
+                <b>SPORT</b>
+
+            </div>
+            <div class="contain">
+                <div class="row">
+
+                    <div>
+                        <img src="http://placehold.it/400x300" class="img-responsive text-center center-block">
+
+                        <!--class="col-lg-4 picprod "
+                        class=" col-lg-8 detail"
+                        !-->
+
+
+                        <table class="table table-inverse">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>time</th>
+                                    <th>date</th>
+                                    <th>name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                   <td>fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>twitter</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <center>
+
+
+                        </center>
+                    </div>
+
+                    <div class="  detail">
+                        <b>
+                            <font color="white" size="6">Description about Matchs</font><b>
+                                <p>
+                                    This page demonstrates the decimal representation of color of
+                                    the form rgba(R,G,B,a), where R, G, and B are the decimal values
+                                    for the red, green, and blue values of the color on the range 0
+                                    to 255 and a is the opacity of the color (a = 0 = transparent;
+                                    a = 1 = opaque). As of January 2009, the Mozilla and Google
+                                    Chrome browsers display colors by this definition method.
+                                    For example, the color with decimal values 23 for red, 67
+                                    for green, and 88 for blue and which has an opacity of 0.5
+                                    (semi-transparent) is rgba(23,67,88,0.5). This is just one
+                                    of the ways you can define colors in HTML attributes and in
+                                    Cascading Style Sheets; you can use a
+                                    quick reference table to help you choose from
+                                </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- end Template-->
+
+
+
+
+
+    <section class="footer">
+
+        <div class="copyright text-center">
+            Copyright &copy; 2014 <span>Sport</span> .Inc
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <script type="text/javascript">
+            var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+                showLeftPush = document.getElementById( 'showLeftPush' ),
+                body = document.body;
+
+            showLeftPush.onclick = function() {
+                classie.toggle( this, 'active' );
+                classie.toggle( body, 'cbp-spmenu-push-toright' );
+                classie.toggle( menuLeft, 'cbp-spmenu-open' );
+            };
+            $('[data-toggle="tooltip"]').tooltip();
+    </script>
+</body>
+</html>
+
+

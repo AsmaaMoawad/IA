@@ -1,0 +1,101 @@
+.navbar-default .navbar-brand {
+    color:green;
+	font-size:35px;
+}
+
+/* start page */ 
+.verticalLine {
+    border-left: thick solid;
+	height:650px;
+}
+
+.img{
+	width:200px;
+	height:200px;
+	margin-top:40px;
+}
+
+/* end start page */ 
+
+/*  start Article details */
+
+
+
+.title b{
+	font-size:50px;
+	color:white;
+	margin-left:50px;
+
+	
+}
+.contain {
+	
+	background-color:#e4e0e0;
+     margin:50px;
+	 padding:20px;
+	border-radius: 5px;
+	
+}
+
+	
+ .detail {
+	font-size:18px;
+
+	
+}
+
+
+/* end Article details */
+
+
+.table{
+	border: solid 1px grey;
+}
+
+
+.footer .copyright{
+	background:#333;
+	color:#AAA;
+	padding:19px;
+	margin-top:140px;
+	font-size:18px;
+}
+
+.footer .copyright span{
+	color:#0895D1;
+}
+
+.footer_admin {
+	background:#333;
+	color:#AAA;
+	padding:19px;
+	margin-top:1000px;
+	font-size:18px;
+}
+
+.footer_admin .copyright span{
+	color:#0895D1;
+}
+
+.footer_editor {
+	background:#333;
+	color:#AAA;
+	padding:19px;
+	margin-top:385px;
+	font-size:18px;
+}
+
+.footer_editor .copyright span{
+	color:#0895D1;
+}
+
+.footer_admin{
+	
+	margin-top:1300px
+}
+.start{
+	margin-left:70px;
+
+	
+	
+}

@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "start Page"  ;
+    
+}
+
+
+<h2>Start Page </h2>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    
+    <title>Start page </title>
+
+    <meta charset="uTf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    @*<link href="~/Content/Site.css" rel="stylesheet" />*@
+    <link href="@Url.Content("~/contents/style.css")"
+          rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <div>
+
+
+
+        <div class="row">
+            <div class="col-lg-1 col-md-1 col-xs-1">
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-xs-1">
+                <div class="verticalLine">
+                </div>
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-xs-1">
+                <div class="verticalLine">
+                </div>
+            </div>
+
+            <div class="col-lg-9 col-xs-9 col-xs-9">
+                <div class="verticalLine">
+                    <center>
+                        <a href="/"><img height="150" width="150" src="@Url.Content("~/contents/img/")/logo.jpg" class="img" /></a>
+                        <h1>Welcome to your</h1>
+                      
+                        <h1>Application</h1> <br>
+
+                        <h1>Some info</h1>
+                        <h1>about the</h1>
+                        <h1>App</h1>
+                    </center>
+
+
+                </div>
+            </div>
+        </div>
+        <button type="button" class=" col-lg-3 btn btn-success start"> @Html.ActionLink("Start" , "wall" , "project")</button>
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>
+
